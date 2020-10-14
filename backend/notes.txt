@@ -1,0 +1,12 @@
+//Composição de uma rota, conforme rota exemplificada abaixo:
+//Recurso: '/users'
+//Métodos HTTP -> GET, POST, PUT, DELETE
+// GET = Leitura de informações
+// POST = Criar uma informação
+// PUT ( ou, em alguns casos, PATCH ) = Alteração de informação
+// DELETE = Apagar uma informação
+
+//Parâmetros:
+//Query Params = http://localhost:3333/users?search=diego (  )
+//Route Params = http://localhost:3333/users/1 ( Identificação de recurso. Muito usado pelos verbos PUT e DELETE )
+//Body = http://localhost:3333/users/[informações de algum contexto inseridas no próprio link]
